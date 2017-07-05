@@ -6,6 +6,7 @@ namespace Recipe2_8
 {
     class Program
     {
+        // ReaderWriterLockSlim 代表一个管理资源访问的锁，允许多个线程同时读取，以及独占写
         static ReaderWriterLockSlim _rw = new ReaderWriterLockSlim();
         static Dictionary<int, int> _items = new Dictionary<int, int>();
 
