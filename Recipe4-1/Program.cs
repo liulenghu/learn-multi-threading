@@ -6,6 +6,10 @@ namespace Recipe4_1
 {
     class Program
     {
+        /// <summary>
+        /// 创建任务
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             var t1 = new Task(() => TaskMethod("Task 1"));
